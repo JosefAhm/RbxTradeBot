@@ -1,0 +1,10 @@
+{
+  "name": "roblox-trade-bot",
+  "version": "1.0.0",
+  "main": "scripts/bot-listener.mjs",
+  "type": "module",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.0.0",
+    "dotenv": "^16.0.0"
+  }
+}

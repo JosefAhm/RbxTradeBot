@@ -1,0 +1,3 @@
+import 'dotenv/config'
+import { createClient } from '@supabase/supabase-js'
+// ...existing code from your bot-listener.mjs...

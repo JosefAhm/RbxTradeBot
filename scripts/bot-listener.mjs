@@ -919,11 +919,6 @@ main().catch(err => {
   process.exit(1)
 })
 
-// --- Keep process alive if all loops are idle (Railway/Node hosting)
-setInterval(() => {
-  // Heartbeat log every 10 minutes to show bot is alive
-  console.log(`[keepalive] Bot is running at ${new Date().toISOString()}`)
-}, 10 * 60 * 1000)
 
 // --- helpers ---
 async function validateBotCookie(cookie) {
